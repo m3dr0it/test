@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "payment-core-ms",
+    "password": "39265a89-b1d6-45ed-a44c-c971dc8597d9",
+    "database": "postgres",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "schema":"public"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
